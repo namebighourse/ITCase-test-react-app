@@ -1,0 +1,26 @@
+.product-popup .ant-modal-content {
+    border-radius: 12px;
+    padding: 24px;
+  }
+  
+  .product-popup .ant-modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .product-popup .ant-modal-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .popup-image {
+    border-radius: 8px;
+    background: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .product-popup .ant-modal-footer {
+    border-top: none;
+    padding-top: 16px;
+    text-align: right;
+  }

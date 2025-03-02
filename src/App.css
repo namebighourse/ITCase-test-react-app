@@ -1,0 +1,51 @@
+/* Анимация для иконки корзины */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 0.5s;
+  }
+  
+  .cart-icon {
+    transition: transform 0.2s;
+  }
+  
+  .cart-icon:hover {
+    transform: scale(1.1);
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0; 
+    background-image: radial-gradient(circle, #ccc 10%, transparent 10%);
+    background-size: 20px 20px; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+:where(.css-dev-only-do-not-override-1v613y0).ant-layout{
+    background-color: #f0f0f0; 
+    background-image: radial-gradient(circle, #ccc 10%, transparent 10%);
+    background-size: 20px 20px; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    
+}
+.ant-row{
+    display: flex
+    ;
+        flex-flow: row wrap;
+        min-width: 0;
+        justify-content: center;
+}
