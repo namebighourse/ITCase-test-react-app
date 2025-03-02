@@ -1,0 +1,23 @@
+.product-list-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 24px;
+    
+    display: flex
+}
+.productList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    margin: 0 10px;
+}
+.ant-card-actions, .ant-card{
+    padding: 10px;
+    margin: 10px;
+}
+.ant-list-item{
+    display: unset;
+}
