@@ -4,7 +4,7 @@
 Реализован полностью функциональный интерфейс интернет-магазина с адаптивным дизайном, динамической корзиной и интерактивным выбором характеристик товаров.
 
 [![GitHub Pages](https://img.shields.io/badge/Demo-ITCase_Test_App-009688?style=flat&logo=github)](https://namebighourse.github.io/ITCase-test-react-app/)  
-**Демо:** https://namebighourse.github.io/ITCase-test-react-app/
+
 
 ---
 ### 1. **Каталог товаров**
